@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1>Shawn´s "Calidad y comodidad siempre"</h1>
+      >
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.colehaan.com/dw/image/v2/AALO_PRD/on/demandware.static/-/Sites-itemmaster_colehaan/default/dw12a49f81/images/C37856/large/OG%20REM%20LONGWING_e_A_C37856.jpg?sw=510"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Zapatos casuales</h2>
+					<p class="price">$190</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.colehaan.com/dw/image/v2/AALO_PRD/on/demandware.static/-/Sites-itemmaster_colehaan/default/dwa22d2565/images/C36575/large/ZG%20OUTPACE%20III_e_A_C36575.jpg?sw=510"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Zapatillas deportivas</h2>
+					<p class="price">$99.95</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.colehaan.com/dw/image/v2/AALO_PRD/on/demandware.static/-/Sites-itemmaster_colehaan/default/dw7d7e099c/images/C38488/large/OG%20WINGTIP%20TXT%20OX_e_A_C38488.jpg?sw=1020"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Zapatos de gala</h2>
+					<p class="price">$140</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.allenedmonds.com/blob/product-images/39099/ec/45/00813/ec4500813_right_medium.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Botas</h2>
+					<p class="price">$300</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.allenedmonds.com/blob/product-images/39099/ec/45/00183/ec4500183_right_medium.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Sneaker</h2>
+					<p class="price">$295</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+
+      </div>
+			<div class="item">
+				<figure>
+					<img
+						src="https://www.colehaan.com/dw/image/v2/AALO_PRD/on/demandware.static/-/Sites-itemmaster_colehaan/default/dw17b93d1a/images/C37631/large/WASHNGTN%20GRD%20LSRW%20OX_e_A_C37631.jpg?sw=1020"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Zapatos de vestir</h2>
+					<p class="price">$195</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+
+			</div>
+		</div>
+
+		<script src="cristian.js"></script>
+	</body>
+</html>
